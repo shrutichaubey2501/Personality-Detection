@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page4</title>
+    <link rel="stylesheet" type = "text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <form action="{{url_for('page.test4') }}" method="POST", enctype = "multipart/form-data"> 
+        <div class="ques" id="q1">
+            <p class="para">I am always prepared</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio31" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio31" value="1" ><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio31" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio31" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio31" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio31" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques" id="q2">
+            <p class="para">I leave my belongings around</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio32" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio32" value="1" ><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio32" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio32" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio32" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio32" value="5"><span>5</span>
+            </label>
+        </div>
+        <div class="ques" id="q3">
+            <p class="para">I pay attention to details</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio33" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio33" value="1" ><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio33" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio33" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio33" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio33" value="5"><span>5</span>
+            </label>
+        </div>
+        <div class="ques" id="q4">
+            <p class="para">I make a mess of things</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio34" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio34" value="1" ><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio34" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio34" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio34" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio34" value="5"><span>5</span>
+            </label>
+        </div>
+        <div class="ques" id="q5">
+            <p class="para">I get chores done right away</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio35" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio35" value="1" ><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio35" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio35" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio35" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio35" value="5"><span>5</span>
+            </label>
+        </div>
+
+        <div class="ques-right" id="q6">
+            <p class="para">I often forget to put things back in their proper place</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio36" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio36" value="1" ><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio36" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio36" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio36" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio36" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques-right" id="q7">
+            <p class="para">I like order</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio37" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio37" value="1" ><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio37" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio37" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio37" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio37" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques-right" id="q8">
+            <p class="para">I shirk my duties</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio38" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio38" value="1" ><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio38" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio38" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio38" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio38" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques-right" id="q9">
+            <p class="para">I follow a schedule</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio39" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio39" value="1" ><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio39" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio39" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio39" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio39" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques-right" id="q10">
+            <p class="para">I am exacting in my work</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio40" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio40" value="1" ><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio40" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio40" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio40" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio40" value="5"><span>5</span>
+            </label>
+
+        </div>
+            <div class="page1-button1">
+            
+                <input type="submit" value="NEXT>>">
+           
+            </div>
+        </form>
+
+            <div class="page1-button2">
+            <a href="{{ url_for('page.test3') }}">
+                <input type="submit" value="<<PREV">
+            </a>
+            </div>
+    
+</div>
+
+
+</body>
+
+</html>

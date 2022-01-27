@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page1</title>
+    <link rel="stylesheet" type = "text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <form action="{{url_for('page.test1') }}" method="POST", enctype = "multipart/form-data"> 
+        <div class="ques" id="q1">
+
+            <p class="para">I am the life of the party</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio1" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio1" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio1" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio1" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio1" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio1" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques" id="q2">
+            <p class="para">I dont talk a lot</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio2" value="0"><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio2" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio2" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio2" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio2" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio2" value="5"><span>5</span>
+            </label>
+        </div>
+        <div class="ques" id="q3">
+            <p class="para">I feel comfortable around people</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio3" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio3" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio3" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio3" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio3" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio3" value="5"><span>5</span>
+            </label>
+        </div>
+        <div class="ques" id="q4">
+            <p class="para">I keep in the background</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio4" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio4" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio4" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio4" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio4" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio4" value="5"><span>5</span>
+            </label>
+        </div>
+        <div class="ques" id="q5">
+            <p class="para">I start conversations</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio5" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio5" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio5" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio5" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio5" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio5" value="5"><span>5</span>
+            </label>
+        </div>
+
+        <div class="ques-right" id="q6">
+            <p class="para">I have little to say</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio6" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio6" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio6" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio6" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio6" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio6" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques-right" id="q7">
+            <p class="para">I talk to a lot of different people at parties</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio7" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio7" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio7" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio7" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio7" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio7" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques-right" id="q8">
+            <p class="para">I dont like to draw attention to myself</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio8" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio8" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio8" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio8" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio8" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio8" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques-right" id="q9">
+            <p class="para">I dont mind being the center of attention</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio9" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio9" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio9" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio9" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio9" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio9" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques-right" id="q10">
+            <p class="para">I am quiet around strangers</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio10" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio10" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio10" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio10" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio10" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio10" value="5"><span>5</span>
+            </label>
+
+        </div>
+          
+            <div class="page1-button1">
+               <!-- <a href="{{ url_for('page.test2') }}">  -->
+                    <input type="submit" value="NEXT>>">
+               <!-- </a> -->
+        
+            </div>
+
+        </form>
+        <div class="page1-button2">
+                <a href=" {{ url_for('phome.landing') }}">
+                    <input type="submit" value="<<HOME">
+                </a>
+                
+        </div>
+
+    
+</div>
+
+
+</body>
+
+</html>
