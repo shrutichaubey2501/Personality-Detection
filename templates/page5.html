@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page5</title>
+    <link rel="stylesheet" type = "text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <form action="{{url_for('page.test5') }}" method="POST", enctype = "multipart/form-data"> 
+        <div class="ques" id="q1">
+            <p class="para">I have a rich vocabulary</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio41" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio41" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio41" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio41" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio41" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio41" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques" id="q2">
+            <p class="para">I have difficulty understanding abstract ideas</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio42" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio42" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio42" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio42" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio42" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio42" value="5"><span>5</span>
+            </label>
+        </div>
+        <div class="ques" id="q3">
+            <p class="para">I have a vivid imagination</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio43" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio43" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio43" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio43" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio43" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio43" value="5"><span>5</span>
+            </label>
+        </div>
+        <div class="ques" id="q4">
+            <p class="para">I am not interested in abstract ideas</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio44" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio44" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio44" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio44" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio44" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio44" value="5"><span>5</span>
+            </label>
+        </div>
+        <div class="ques" id="q5">
+            <p class="para">I have excellent ideas</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio45" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio45" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio45" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio45" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio45" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio45" value="5"><span>5</span>
+            </label>
+        </div>
+
+        <div class="ques-right" id="q6">
+            <p class="para">I do not have a good imagination</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio46" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio46" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio46" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio46" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio46" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio46" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques-right" id="q7">
+            <p class="para">I am quick to understand things</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio47" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio47" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio47" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio47" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio47" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio47" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques-right" id="q8">
+            <p class="para">I use difficult words</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio48" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio48" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio48" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio48" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio48" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio48" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques-right" id="q9">
+            <p class="para">I spend time reflecting on things</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio49" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio49" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio49" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio49" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio49" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio49" value="5"><span>5</span>
+            </label>
+
+        </div>
+        <div class="ques-right" id="q10">
+            <p class="para">I am full of ideas</p>
+            <label class="radio-inline">
+                <input type="radio" name="optradio50" value="0" ><span>0</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio50" value="1"><span>1</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio50" value="2" ><span>2</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio50" value="3"><span>3</span>
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" name="optradio50" value="4" ><span>4</span>
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio50" value="5"><span>5</span>
+            </label>
+
+        </div>
+
+            <div class="page1-button1">
+                <input type="submit" value="TEST">
+            </div>
+        </form>
+        
+      
+            <div class="page1-button2">
+            <a href="{{ url_for('page.test3') }}">
+                <input type="submit" value="<<PREV">
+            </a>
+            </div>
+    
+</div>
+
+
+</body>
+
+</html>
